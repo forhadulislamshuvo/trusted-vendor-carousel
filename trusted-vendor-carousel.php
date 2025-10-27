@@ -3,7 +3,7 @@
  * Plugin Name: Trusted Vendor Carousel
  * Plugin URI: https://github.com/forhadulislamshuvo/trusted-vendor-carousel
  * Description: Infinite seamless vendor logo carousel with speed, alignment, and display controls. A Straw Digital product.
- * Version: 2.5.1
+ * Version: 2.5.2
  * Author: Md Forhadul Islam Shuvo
  * Author URI: http://digital.strawbd.com/
  * License: GPLv2 or later
