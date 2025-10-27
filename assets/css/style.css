@@ -1,0 +1,34 @@
+.tvc-carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.tvc-carousel {
+  display: flex;
+  gap: 40px;
+  animation: tvcScroll linear infinite;
+  will-change: transform;
+}
+
+.tvc-item {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.tvc-item img {
+  object-fit: contain;
+}
+
+.tvc-carousel:hover {
+  animation-play-state: paused;
+}
+
+@keyframes tvcScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
